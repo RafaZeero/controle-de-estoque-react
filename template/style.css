@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 10vh 0 0;
+}
+
+main,
+.controle {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.controle {
+  background: #ccc;
+  border: 2px solid #333;
+  padding: 1em;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+}
+
+.titulo {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.adicionar {
+}
+
+.busca {
+}
+
+.conteudo {
+  background: #eee;
+  border: 2px solid #333;
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.conteudo th,
+.conteudo td {
+  text-align: left;
+  padding: 5px 10px 5px 5px;
+}
+
+.topico {
+  color: #eee;
+}
+
+.topico th {
+  background: #333;
+}
+
+.conteudo tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+.conteudo tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+/* form de cadastro */
+
+.cadastro {
+  padding: 5px;
+  border: 2px solid #000;
+  display: none;
+}
+
+.cadastro-ativo {
+  display: block;
+}
