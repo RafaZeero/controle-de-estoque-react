@@ -1,0 +1,14 @@
+.controle {
+  @apply w-[full];
+  @apply flex p-[1em] mx-auto border-[2px] border-solid border-[#333];
+  @apply rounded-t-[15px];
+  @apply bg-[#ccc];
+}
+
+.titulo {
+  @apply m-0 grow-[1];
+}
+
+.adicionar {
+  @apply py-[8px] px-[16px];
+}
